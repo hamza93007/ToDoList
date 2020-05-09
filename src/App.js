@@ -9,7 +9,7 @@ import logo from "./assest/todolist.jpg"
 
 function App() {
   const [Tasks, setTask] = useState([
-    { titles: "Exercice Panier", isDone: true },
+    { title: "Exercice Panier", isDone: true },
     { title: "Garder la motivation", isDone: false },
     { title: "Ne baissez pas les Bras", isDone: true },
     { title: "Avancez Hamza", isDone: false },
